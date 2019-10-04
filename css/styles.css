@@ -10,8 +10,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
-
-
 }
 /* Link Styles */
 
@@ -24,14 +22,6 @@ a:hover {
 }
 
 /* Section Styles */
-
-hr {
-
-    border-color: #727878;
-    opacity: 0.2;
-    filter: alpha(opacity=20);
-
-}
 
 .main-nav {
   width: 100%;
@@ -67,7 +57,7 @@ hr {
 
 header {
   text-align: center;
-  background: url('images/bristol-at-night.jpg') no-repeat top center ;
+  background: url('../images/bristol-at-night.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding: 60px 0;
@@ -111,15 +101,6 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
-}
-
-.ten-facts{
-  text-align: left;
-  line-height: 3;
-  list-style-type: none;
-}
-.ten-facts ul{
-  list-style-type: none;
 }
 
 ul.skills {
@@ -172,99 +153,19 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
 }
 .clearfix {
   clear: both;
-}
-
-/* experience.html styles  */
-.experience-body{
-  background: #EAF6F6;
-}
-.profile-heading{
-
-  background: url('images/black-panther.jpg')no-repeat top center;
-  background-size: cover;
-  overflow: hidden;
-  padding: 15% 0;
-
-}
-.parent{
-  max-width: 1400px;
-
-}
-.box-1{
-  padding: 10px;
-}
-
-.box-2{
-
-  text-align: left;
-  padding: 20px;
-  box-sizing: border-box;
-  flex-basis: 25%;
-}
-.uni-year{
-  text-align: left;
-  padding-left: 7%;
-}
-.edu{
-  padding: 7% 0 2% 6%;
-}
-
-/* career style */
-.career-div{
-  max-width: 1400px;
-
-}
-.career{
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 6%;
-  text-align: left;
-}
-.career-job{
-  text-align: left;
-  padding-left: 17%;
-
-}
-.careerbox{
-  text-align: left;
-
-
-}
-.careerbox-2{
-  text-align: left;
-  padding-left: 8%;
-  flex: 1;
-
-}
-
-
-/* about.html styles  */
-.ten-facts{
-  padding-top: 60px;
-}
-
-/* abilities styles */
-.main-table{
-  padding: 0 7%;
-}
-/* my image styling */
-.img-joke{
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
 }
 
 /* Styles for larger screens */
@@ -301,21 +202,6 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
-  }
-
-}
-/* experience media query */
-@media (min-width:900px) {
-  .parent{
-    display: flex;
-    justify-content: space-between;
-  }
-
-}
-@media (min-width:900px) {
-  .career-div{
-    display: flex;
-    justify-content: space-between;
   }
 
 }
