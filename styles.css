@@ -67,7 +67,7 @@ hr {
 
 header {
   text-align: center;
-  background: url('images/bristol-at-night.jpg') no-repeat top center ;
+  background: url('images/bristol-air.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding: 60px 0;
@@ -85,7 +85,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
